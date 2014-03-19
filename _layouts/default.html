@@ -35,11 +35,12 @@
 
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
-						<li><label>Knowledge Base</label></li>
 
-						{% for page in site.pages %}
-							<li><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+						{% for post in site.categories.child-themes. %}
+							<li><label>Child Themes</label></li>
+							<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 						{% endfor %}
+
 					</ul>
 				</aside>
 

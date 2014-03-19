@@ -10,5 +10,30 @@ layout: default
 </div>
 
 <div class="row post" id="main-content">
-	{{ content }}
+	<div class="medium-3 large-4 columns">
+		<ul class="side-nav">
+			{% for post in site.categories.child-themes. %}
+				<li><label>Child Themes</label></li>
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+			{% for post in site.categories.functions. %}
+				<li><label>Functions</label></li>
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+			{% for post in site.categories.actions. %}
+				<li><label>Actions</label></li>
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+			{% for post in site.categories.filters. %}
+				<li><label>Filters</label></li>
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="medium-9 large-8 columns">
+		{{ content }}
+	</div>
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "When to use a child theme"
+category: child-themes
 ---
 
 Shoestrap is pretty extendable and in most cases a child theme is **not** needed.
