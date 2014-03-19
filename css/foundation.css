@@ -7344,3 +7344,7 @@ div.hero h1 {
 div.hero p {
   font-size: 1.5rem;
 }
+
+.main-section {
+  min-height: 800px;
+}
