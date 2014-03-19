@@ -1,8 +1,4 @@
 name: Shoestrap Documentation
 markdown: redcarpet
 pygments: true
-
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
+permalink: pretty
