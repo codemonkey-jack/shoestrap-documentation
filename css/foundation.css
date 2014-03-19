@@ -7348,3 +7348,20 @@ div.hero p {
 .main-section {
   min-height: 800px;
 }
+
+.site-footer {
+  background: #007095;
+  padding: 3rem 0;
+}
+
+.site-footer ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+.site-footer ul li {
+  border-bottom: 1px solid #008cba;
+}
+.site-footer a {
+  color: #fff;
+}
