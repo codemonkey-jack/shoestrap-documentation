@@ -1,6 +1,3 @@
 name: Shoestrap Documentation
-safe: true
-lsi: false
 markdown: redcarpet
 pygments: true
-source: http://shoestrap.github.io/shoestrap-documentation/
