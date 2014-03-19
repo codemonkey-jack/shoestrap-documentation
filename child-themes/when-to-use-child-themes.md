@@ -15,7 +15,7 @@ On the Shoestrap theme however, you can write your custom CSS, LESS and JS right
 * On the **Custom Less** field you can write using the [Less](http://www.lesscss.org/) syntax, or even plain CSS.
 If you write LESS, you can even use bootstrap variables in your styles. You could change for example the Branding Warning and Branding Danger colors using the Shoestrap admin panel, and your styles will automatically change according to that:
 
-```less
+```css
 #my-div {
 	color: @brand-warning;
 
