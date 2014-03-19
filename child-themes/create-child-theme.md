@@ -12,7 +12,7 @@ An easy way to do that, keeping all of our custom work safe, is by creating a [c
 * Inside your `/themes` folder create a new folder `/shoestrap-child`
 * Inside `/shoestrap-child` folder create a `style.css` file containing the below code:
 
-{% highlight css %}
+```css
 /*
 Theme Name:    My Shoestrap 3
 Description:   My custom child theme for Shoestrap 3
@@ -20,7 +20,7 @@ Version:       draft
 Author:        Your Name
 Template:      shoestrap-3
 */
-{% endhighlight %}
+```
 
 This file is used by WordPress to detect the properties of your child theme.
 The "Template" line above is actually the folder name of the Shoestrap parent theme. If for some reason you've renamed the folder, you'll need to change the `Template` definition in your child theme's `style.css` file.

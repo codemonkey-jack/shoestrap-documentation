@@ -15,7 +15,7 @@ On the Shoestrap theme however, you can write your custom CSS, LESS and JS right
 * On the **Custom Less** field you can write using the [Less](http://www.lesscss.org/) syntax, or even plain CSS.
 If you write LESS, you can even use bootstrap variables in your styles. You could change for example the Branding Warning and Branding Danger colors using the Shoestrap admin panel, and your styles will automatically change according to that:
 
-{% highlight css %}
+```less
 #my-div {
 	color: @brand-warning;
 
@@ -24,7 +24,7 @@ If you write LESS, you can even use bootstrap variables in your styles. You coul
 		.btn-danger;
 	}
 }
-{% endhighlight %}
+```
 
 The above code for example will make the text inside the `#my-div`> div on your page inherit the color you have specified as brand-warning and the link that has a class of `my-link` inside that div will be styled as a bootstrap danger button.
 
@@ -61,7 +61,7 @@ By default the `style.css` file is not included.
 In order for your stylesheets to be included, you will have to enqueue that file.
 To do that, add the following code in your child theme's `functions.php` file:
 
-{% highlight php %}
+```php
 <?php
 
 function my_child_theme_stylesheet() {
@@ -72,13 +72,14 @@ function my_child_theme_stylesheet() {
 add_action( 'wp_enqueue_scripts', 'my_child_theme_stylesheet', 100 );
 
 ?>
-{% endhighlight %}
+```
 
 * **Write less and include it in the compiled css**
 You can write your own less files and have them included in the compiled CSS.
 To do that, create a new file in your child theme called `my-styles.less` and place it in your `assets/less/` folder.
 Then add the following in your child theme's `functions.php` file:
-{% highlight php %}
+
+```php
 <?php
 
 add_filter( 'shoestrap_compiler', 'my_childtheme_less_styles' );
@@ -89,4 +90,4 @@ function my_childtheme_less_styles( $bootstrap ) {
 
 }
 ?>
-{% endhighlight %}
+```
