@@ -11,6 +11,9 @@ The `Shoestrap_Color` is responsible for all the color calculations in the theme
 
 You can find examples and usage instructions for all methods in the class below.
 
+<div data-alert class="alert-box">
+	<p>If you are integrating your own CSS Framework in Shoestrap, you can use these methods to in your compiler. You can even auto-calculate all CSS colors of your theme using these and having the user simply define their "main" color.</p>
+</div>
 
 ### Color Sanitization
 Make sure that the color is properly formatted.
@@ -211,3 +214,4 @@ The returned value should be bigger than 5 for best readability.
 ```
 * `$color1`: hex value.
 * `$color2`: hex value.
+
