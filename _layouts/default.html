@@ -36,6 +36,11 @@
 				<aside class="left-off-canvas-menu">
 					<ul class="off-canvas-list">
 
+						<li><label>The Framework</label></li>
+						{% for post in site.categories.framework. %}
+							<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+
 						<li><label>Child Themes</label></li>
 						{% for post in site.categories.child-themes. %}
 							<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
