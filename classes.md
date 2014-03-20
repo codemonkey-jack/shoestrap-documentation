@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: class
 title: Shoestrap Classes
 ---
 
@@ -7,7 +7,7 @@ Classes are a way to better organize the code in the Shoestrap theme. We are slo
 
 You can learn more about PHP Classes in the [PHP Manuals](http://www.php.net/manual/en/language.oop5.php).
 
-<hr>
+<!-- <hr>
 
 <ul class="side-nav">
 
@@ -16,4 +16,4 @@ You can learn more about PHP Classes in the [PHP Manuals](http://www.php.net/man
 		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul>
+</ul> -->

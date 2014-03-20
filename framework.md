@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: framework
 title: Shoestrap Framework
 ---
 
@@ -13,10 +13,10 @@ Other frameworks can be included via a plugin. To see an example of how to build
 
 By installing and activating this plugin, the theme will use the styles, scripts and definitions of the new framework and disregard the pre-bundeled Bootstrap.
 
-<ul class="side-nav">
+<!-- <ul class="side-nav">
 	<li><label>The Framework</label></li>
 	{% for post in site.categories.framework. %}
 		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul>
+</ul> -->

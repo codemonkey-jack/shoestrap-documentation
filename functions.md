@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: function
 title: Shoestrap Functions
 ---
 
-Below is a list of functions that the Shoestrap theme contains:
+<!-- Below is a list of functions that the Shoestrap theme contains:
 
 <ul class="side-nav">
 
@@ -12,4 +12,4 @@ Below is a list of functions that the Shoestrap theme contains:
 		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul>
+</ul> -->

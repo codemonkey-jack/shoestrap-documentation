@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title: Shoestrap Actions
 ---
 
@@ -10,7 +10,7 @@ What are Actions?
 
 You can read more about how to use WordPress filters by reading the [WordPress codex](http://codex.wordpress.org/Plugin_API#Actions).
 
-<hr>
+<!-- <hr>
 
 You can find a list of the available actions below:
 
@@ -21,4 +21,4 @@ You can find a list of the available actions below:
 		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul>
+</ul> -->

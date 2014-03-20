@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title: Shoestrap Filters
 ---
 
@@ -10,7 +10,7 @@ What are filters?
 
 You can read more about how to use WordPress filters by reading the [WordPress codex](http://codex.wordpress.org/Plugin_API#Filters).
 
-<hr>
+<!-- <hr>
 You can find a list of filters used by the Shoestrap theme below.
 
 <ul class="side-nav">
@@ -20,4 +20,4 @@ You can find a list of filters used by the Shoestrap theme below.
 		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul>
+</ul> -->
