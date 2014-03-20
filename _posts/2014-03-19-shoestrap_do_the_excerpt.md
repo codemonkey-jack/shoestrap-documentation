@@ -2,6 +2,7 @@
 layout: post
 title:  "shoestrap_do_the_excerpt"
 category: actions
+permalink: actions/shoestrap_do_the_excerpt
 ---
 
 The `shoestrap_do_the_excerpt` action allows you to bypass the_excerpt call that exists in the templates/content.php template file.

@@ -2,6 +2,7 @@
 layout: post
 title:  "shoestrap_entry_meta_override"
 category: actions
+permalink: actions/shoestrap_entry_meta_override
 ---
 
 This will skip loading the [templates/entry-meta.php](https://github.com/shoestrap/shoestrap/blob/master/templates/entry-meta.php) file, allowing us to replace it with our own custom template.

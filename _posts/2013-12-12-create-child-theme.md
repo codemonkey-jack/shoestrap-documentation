@@ -2,6 +2,7 @@
 layout: post
 title:  "Create a basic Child Theme"
 category: child-themes
+permalink: child-themes/create-basic-child-theme
 ---
 
 <a class="button" href="https://github.com/shoestrap/shoestrap-child">Sample Child Theme</a>
