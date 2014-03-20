@@ -20,3 +20,8 @@ example:
 ```php
 <?php ss_get_template_part( 'page' ); ?>
 ```
+
+<hr>
+
+* Location: [/lib/template.php](https://github.com/shoestrap/shoestrap-3/blob/development/lib/template.php)
+* Related: [ss\_locate\_template](/functions/ss_locate_template)
