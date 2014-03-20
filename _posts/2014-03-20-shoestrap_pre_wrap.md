@@ -5,4 +5,21 @@ category: actions
 permalink: actions/shoestrap_pre_wrap
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Using the `shoestrap_pre_wrap` action we can insert custom content before the `breadcrumb` and main `wrap` sections.
+
+### Example:
+
+```php
+<?php
+
+function my_custom_pre_wrap() {
+	echo 'This is my custom content';
+}
+add_action( 'shoestrap_pre_wrap', 'my_custom_pre_wrap' );
+
+?>
+```
+
+<hr>
+
+* Location: [base.php](https://github.com/shoestrap/shoestrap/blob/master/base.php)
