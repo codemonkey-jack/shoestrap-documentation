@@ -5,4 +5,21 @@ category: actions
 permalink: actions/shoestrap_pre_footer
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+The `shoestrap_pre_footer` action is located in `base.php` after the main wrapper div and before the footer.
+
+### Example:
+
+```php
+<?php
+
+function my_custom_pre_footer() {
+	echo 'This content will be visible before the footer.';
+}
+add_action( 'shoestrap_pre_footer', 'my_custom_pre_footer' );
+
+?>
+```
+
+<hr>
+
+* Location: [base.php](https://github.com/shoestrap/shoestrap/blob/master/base.php)
