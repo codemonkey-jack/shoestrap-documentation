@@ -7323,6 +7323,7 @@ th.hide-for-touch {
 pre {
   padding: 2rem;
   background: #fafafa;
+  margin: 2em 0;
 }
 
 h1 { font-weight: 200; font-family: 'Raleway', sans-serif; font-size: 3rem; }
