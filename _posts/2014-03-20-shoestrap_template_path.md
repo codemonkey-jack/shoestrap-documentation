@@ -5,4 +5,10 @@ category: functions
 permalink: functions/shoestrap_template_path
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Returns the path to the template file that will be used.
+
+Uses the [Shoestrap\_Wrapping](/classes/Shoestrap_Wrapping) class.
+
+<hr>
+
+* Location: ['lib/wrapper.php'](https://github.com/shoestrap/shoestrap-3/blob/development/lib/wrapper.php)
