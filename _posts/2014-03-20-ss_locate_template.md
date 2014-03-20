@@ -6,3 +6,8 @@ permalink: functions/ss_locate_template
 ---
 
 Identical to WordPress's locale_template function, but searches inside the framework as well.
+
+<hr>
+
+* Location: [/lib/template.php](https://github.com/shoestrap/shoestrap-3/blob/development/lib/template.php)
+* Related: [ss\_get\_template\_part](/functions/ss_get_template_part)
