@@ -9,3 +9,10 @@ SHOESTRAP_ASSETS_URL
 
 SHOESTRAP_OPT_NAME
 
+themeURI
+
+themeFOLDER
+
+themePATH
+
+themeNAME
