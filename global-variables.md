@@ -3,16 +3,16 @@ layout: post
 title:  "Global Variables"
 ---
 
-SS_FRAMEWORK
+Shoestrap uses the below gloval variables.
 
-SHOESTRAP_ASSETS_URL
+* `SS_FRAMEWORK` : the name of the framework that is currently used. Default: `bootstrap`.
+* `SHOESTRAP_ASSETS_URL` : the URL to the /assets folder of the theme. Default: `get_template_directory_uri() . '/assets'`
+* `SHOESTRAP_OPT_NAME` : The name of the option in the database that contains all shoestrap options. Default: `shoestrap`
 
-SHOESTRAP_OPT_NAME
+You can override these from a plugin or from your `wp-config.php` file.
 
-themeURI
+For example if you want to change the database option from *shoestrap* to *my_option*, you would add this line in your wp-config.php file:
 
-themeFOLDER
-
-themePATH
-
-themeNAME
+```php
+define( 'SHOESTRAP_OPT_NAME', 'my_option' );
+```
