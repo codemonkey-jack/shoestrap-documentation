@@ -35,4 +35,4 @@ add_filter( 'shoestrap_widgets_class', 'custom_replace_widget_class' );
 
 <hr>
 * Location: [lib/widgets.php](https://github.com/shoestrap/shoestrap-3/blob/development/lib/widgets.php)
-* Related: [shoestrap\_widgets\_before\_title](/filters/shoestrap_widgets_before_title), [shoestrap\_widgets\_after\_title](shoestrap_widgets_after_title)
+* Related: [shoestrap\_widgets\_before\_title](/filters/shoestrap_widgets_before_title), [shoestrap\_widgets\_after\_title](/filters/shoestrap_widgets_after_title)
