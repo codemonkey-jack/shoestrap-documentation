@@ -2,4 +2,4 @@ name: Shoestrap Documentation
 markdown: redcarpet
 pygments: true
 permalink: pretty
-url: http://developer.shoestrap.org
+url: http://developers.shoestrap.org
