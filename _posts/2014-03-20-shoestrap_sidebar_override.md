@@ -5,4 +5,20 @@ category: actions
 permalink: actions/shoestrap_sidebar_override
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+The `shoestrap_sidebar_override` action can be used to replace the primary sidebar template.
+
+### Example:
+```php
+<?php
+
+function my_custom_sidebar() {
+	// your custom sidebar template code
+}
+add_action( 'shoestrap_sidebar_override', 'my_custom_sidebar' );
+
+?>
+```
+
+<hr>
+
+* Location: [base.php](https://github.com/shoestrap/shoestrap/blob/master/base.php)
