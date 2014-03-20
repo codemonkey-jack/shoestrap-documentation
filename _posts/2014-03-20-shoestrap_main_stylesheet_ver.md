@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title:  "shoestrap_main_stylesheet_ver"
 category: filters
 permalink: filters/shoestrap_main_stylesheet_ver

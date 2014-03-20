@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: childtheme
 title:  "When to use a child theme"
 category: child-themes
 permalink: child-themes/when-to-use-child-themes

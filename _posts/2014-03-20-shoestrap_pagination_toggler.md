@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_pagination_toggler"
 category: functions
 permalink: functions/shoestrap_pagination_toggler

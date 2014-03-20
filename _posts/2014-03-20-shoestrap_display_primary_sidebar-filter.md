@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title:  "shoestrap_display_primary_sidebar"
 category: filters
 permalink: filters/shoestrap_display_primary_sidebar

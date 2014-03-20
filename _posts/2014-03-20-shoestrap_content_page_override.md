@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_content_page_override"
 category: actions
 permalink: actions/shoestrap_content_page_override

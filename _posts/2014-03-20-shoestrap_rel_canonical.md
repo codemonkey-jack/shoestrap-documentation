@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_rel_canonical"
 category: functions
 permalink: functions/shoestrap_rel_canonical

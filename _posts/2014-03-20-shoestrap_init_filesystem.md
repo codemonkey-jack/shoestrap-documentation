@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_init_filesystem"
 category: functions
 permalink: functions/shoestrap_init_filesystem

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_password_form"
 category: functions
 permalink: functions/shoestrap_password_form

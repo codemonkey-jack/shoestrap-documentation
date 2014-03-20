@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title:  "shoestrap_title_section"
 category: filters
 permalink: filters/shoestrap_title_section

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_replace_reply_link_class"
 category: functions
 permalink: functions/shoestrap_replace_reply_link_class

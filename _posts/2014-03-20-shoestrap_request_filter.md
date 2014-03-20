@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_request_filter"
 category: functions
 permalink: functions/shoestrap_request_filter

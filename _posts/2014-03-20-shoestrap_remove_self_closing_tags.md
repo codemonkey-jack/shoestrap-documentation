@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_remove_self_closing_tags"
 category: functions
 permalink: functions/shoestrap_remove_self_closing_tags

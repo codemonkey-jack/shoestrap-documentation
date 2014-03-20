@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "ss_get_template_part"
 category: functions
 permalink: functions/ss_get_template_part

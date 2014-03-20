@@ -7365,3 +7365,8 @@ div.hero p {
 .site-footer a {
   color: #fff;
 }
+
+a.alert-link {
+  text-decoration: underline;
+  color: #f2f2f2;
+}

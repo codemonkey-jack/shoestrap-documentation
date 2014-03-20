@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_blank"
 category: functions
 permalink: functions/shoestrap_blank

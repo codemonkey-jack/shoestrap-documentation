@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_language_attributes"
 category: functions
 permalink: functions/shoestrap_language_attributes

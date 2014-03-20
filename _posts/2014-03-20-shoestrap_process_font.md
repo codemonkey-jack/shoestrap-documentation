@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_process_font"
 category: functions
 permalink: functions/shoestrap_process_font

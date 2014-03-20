@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_array_delete"
 category: functions
 permalink: functions/shoestrap_array_delete

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_index_begin"
 category: actions
 permalink: actions/shoestrap_index_begin

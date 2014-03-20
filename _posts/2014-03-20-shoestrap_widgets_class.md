@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title:  "shoestrap_widgets_class"
 category: filters
 permalink: filters/shoestrap_widgets_class

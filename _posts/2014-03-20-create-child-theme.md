@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: childtheme
 title:  "Create a basic Child Theme"
 category: child-themes
 permalink: child-themes/create-basic-child-theme

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: filter
 title:  "shoestrap_top_bar_template"
 category: filters
 permalink: filters/shoestrap_top_bar_template

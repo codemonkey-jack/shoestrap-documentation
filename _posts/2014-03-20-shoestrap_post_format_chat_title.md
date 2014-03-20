@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_post_format_chat_title"
 category: functions
 permalink: functions/shoestrap_post_format_chat_title

@@ -17,8 +17,79 @@ title: Shoestrap Documentation
 		</div>
 	</div>
 </div>
+<div class="row">
+	<div data-alert class="alert-box">
+	<p>You can now submit your own documentations and help us complete this task by forking our documentation repository on <a class="alert-link" href="https://github.com/shoestrap/shoestrap-documentation">github</a>.</p>
+	<p>We use <a class="alert-link" href="http://jekyllrb.com/" target="_blank">Jekyll</a> to create this documentation site, so all you have to do in order to contribute to these docs is add a new file to the <code>_posts</code> folder and submit a pull request to our github repository. Please note the the files should be formatted using github markdown syntax for better consistency.</p>
+	</div>
+</div>
 
 <div class="row">
-	You can now submit your own documentations and help us complete this task by forking our documentation repository on <a href="https://github.com/shoestrap/shoestrap-documentation">github</a>.</p>
-	<p>We use <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> to create this documentation site, so all you have to do in order to contribute to these docs is add a new file to the <code>_posts</code> folder and submit a pull request to our github repository. Please note the the files should be formatted using github markdown syntax for better consistency.</p>
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>The Framework</label></li>
+			{% for post in site.categories.framework. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>Child Themes</label></li>
+			{% for post in site.categories.child-themes. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>Classes</label></li>
+			{% for post in site.categories.classes. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>Functions</label></li>
+			{% for post in site.categories.functions. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>Actions</label></li>
+			{% for post in site.categories.actions. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
+
+	<div class="medium-4 columns">
+		<ul class="side-nav">
+
+			<li><label>Filters</label></li>
+			{% for post in site.categories.filters. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
+		</ul>
+	</div>
 </div>

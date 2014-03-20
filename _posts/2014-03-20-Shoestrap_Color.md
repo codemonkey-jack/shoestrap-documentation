@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: class
 title:  "Shoestrap_Color"
 category: classes
 permalink: classes/Shoestrap_Color

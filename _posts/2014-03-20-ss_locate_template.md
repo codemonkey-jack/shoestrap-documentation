@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "ss_locate_template"
 category: functions
 permalink: functions/ss_locate_template

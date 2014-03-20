@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_remove_dashboard_widgets"
 category: functions
 permalink: functions/shoestrap_remove_dashboard_widgets

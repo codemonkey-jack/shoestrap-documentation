@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "is_element_empty"
 category: functions
 permalink: functions/is_element_empty

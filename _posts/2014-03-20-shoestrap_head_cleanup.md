@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_head_cleanup"
 category: functions
 permalink: functions/shoestrap_head_cleanup

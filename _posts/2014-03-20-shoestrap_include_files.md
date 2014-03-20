@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_include_files"
 category: actions
 permalink: actions/shoestrap_include_files

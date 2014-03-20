@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_single_top"
 category: actions
 permalink: actions/shoestrap_single_top

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_pre_wrap"
 category: actions
 permalink: actions/shoestrap_pre_wrap

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_paginate_links"
 category: functions
 permalink: functions/shoestrap_paginate_links

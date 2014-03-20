@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: function
 title:  "shoestrap_meta"
 category: functions
 permalink: functions/shoestrap_meta

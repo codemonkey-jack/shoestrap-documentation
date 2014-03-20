@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: action
 title:  "shoestrap_pre_top_bar"
 category: actions
 permalink: actions/shoestrap_pre_top_bar

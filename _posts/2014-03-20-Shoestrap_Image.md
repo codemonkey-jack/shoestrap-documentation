@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: class
 title:  "Shoestrap_Image"
 category: classes
 permalink: classes/Shoestrap_Image
