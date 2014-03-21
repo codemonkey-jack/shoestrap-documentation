@@ -79,6 +79,13 @@ title: Shoestrap Documentation
 				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 			{% endfor %}
 
+			<hr>
+
+			<li><label>Deprecated Actions</label></li>
+			{% for post in site.categories.actions-deprecated. %}
+				<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+
 		</ul>
 	</div>
 
