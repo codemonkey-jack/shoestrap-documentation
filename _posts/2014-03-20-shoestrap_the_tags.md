@@ -5,4 +5,6 @@ category: filters
 permalink: filters/shoestrap_the_tags
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Allows us to filter the output of tags on singular post views.
+
+* Source: [lib/meta.php](https://github.com/shoestrap/shoestrap-3/blob/development/lib/meta.php)
