@@ -5,4 +5,38 @@ category: actions
 permalink: actions/shoestrap_content_single_override
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Using the `shoestrap_content_single_override` action you can override the content of single posts.
+This will completely bypass loading the [templates/content-single.php](https://github.com/shoestrap/shoestrap/blob/master/templates/content-single.php) file and you will have to manually add your own template.
+
+### Example:
+
+```php
+<?php
+
+function my_custom_single_content() {
+	while ( have_posts()) : the_post(); ?>
+
+		<article>
+
+			<header>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+			</header>
+
+			<div class="entry-content">
+				<?php the_content(); ?>
+				<div class="clearfix"></div>
+			</div>
+
+			<?php comments_template( '/templates/comments.php' ); ?>
+
+		</article>
+	<?php endwhile;
+}
+add_action( 'shoestrap_content_single_override', 'my_custom_single_content' );
+
+?>
+```
+
+<hr>
+
+* Location: [single.php](https://github.com/shoestrap/shoestrap/blob/master/single.php)
