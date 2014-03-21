@@ -20,6 +20,6 @@ add_action( 'shoestrap_entry_meta_override', 'my_custom_metadata' );
 ?>
 ```
 
-<div data-alert class="alert-box info">
-	Location: <a href="https://github.com/shoestrap/shoestrap/blob/master/templates/content-single.php" target="_blank">templates/content-single.php</a>, <a href="https://github.com/shoestrap/shoestrap/blob/master/templates/content.php" target="_blank">templates/content.php</a>
-</div>
+<hr>
+
+* Location: [templates/content-single.php](https://github.com/shoestrap/shoestrap/blob/master/templates/content-single.php), [templates/content.php](https://github.com/shoestrap/shoestrap/blob/master/templates/content.php).
