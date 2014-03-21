@@ -5,4 +5,21 @@ category: actions
 permalink: actions/shoestrap_content_override
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Using the `shoestrap_content_override` action we can override the content of individual posts inside the loop in post archives.
+
+### Example:
+
+```php
+<?php
+
+function my_shoestrap_content_override() {
+	echo 'This is my custom content';
+}
+add_action( 'shoestrap_content_override', 'my_shoestrap_content_override' );
+
+?>
+```
+
+<hr>
+
+* Location: [index.php](https://github.com/shoestrap/shoestrap/blob/master/index.php)
