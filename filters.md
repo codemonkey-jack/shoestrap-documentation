@@ -12,7 +12,7 @@ You can read more about how to use WordPress filters by reading the [WordPress c
 
 <hr>
 
-You can find a list of the available classes below:
+You can find a list of the available filters below:
 
 <ul class="inline-list">
 

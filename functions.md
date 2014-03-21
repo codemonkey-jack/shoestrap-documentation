@@ -5,7 +5,7 @@ title: Shoestrap Functions
 
 <hr>
 
-You can find a list of the available classes below:
+You can find a list of the available functions below:
 
 <ul class="inline-list">
 
