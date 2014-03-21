@@ -1,15 +1,17 @@
 ---
-layout: function
+layout: full-width
 title: Shoestrap Functions
 ---
 
-<!-- Below is a list of functions that the Shoestrap theme contains:
+<hr>
 
-<ul class="side-nav">
+You can find a list of the available classes below:
 
-	<li><label>Functions</label></li>
+<ul class="inline-list">
+
+	<li><label class="button small primary disabled">Functions:</label></li>
 	{% for post in site.categories.functions. %}
-		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+		<li><a class="button small secondary" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul> -->
+</ul>

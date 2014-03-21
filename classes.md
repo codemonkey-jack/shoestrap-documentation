@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: full-width
 title: Shoestrap Classes
 ---
 
@@ -7,13 +7,15 @@ Classes are a way to better organize the code in the Shoestrap theme. We are slo
 
 You can learn more about PHP Classes in the [PHP Manuals](http://www.php.net/manual/en/language.oop5.php).
 
-<!-- <hr>
+<hr>
 
-<ul class="side-nav">
+You can find a list of the available classes below:
 
-	<li><label>Classes in the Shoestrap Theme:</label></li>
+<ul class="inline-list">
+
+	<li><label class="button small primary disabled">Classes:</label></li>
 	{% for post in site.categories.classes. %}
-		<li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+		<li><a class="button small secondary" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 
-</ul> -->
+</ul>
