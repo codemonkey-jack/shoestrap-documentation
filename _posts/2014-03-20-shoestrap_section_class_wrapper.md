@@ -5,4 +5,34 @@ category: filters
 permalink: filters/shoestrap_section_class_wrapper
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Allows us to change or add classes to the wrapper div.
+
+Please note that not all layouts require a wrapper, so their use depends on the current [framework](/framework) in use and the layout of the current page.
+
+### Example:
+
+#### Adding a class:
+
+```php
+<?php
+
+function my_custom_wrapper_class( $class ) {
+	return $class . ' my-class';
+}
+add_filter( 'shoestrap_section_class_wrapper', 'my_custom_wrapper_class' );
+
+?>
+```
+
+#### Replacing the default class(es) with our own:
+
+```php
+<?php
+
+function my_custom_wrapper_class() {
+	return 'my-class';
+}
+add_filter( 'shoestrap_section_class_wrapper', 'my_custom_wrapper_class' );
+
+?>
+```
