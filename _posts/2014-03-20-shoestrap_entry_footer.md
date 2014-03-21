@@ -5,4 +5,10 @@ category: actions
 permalink: actions/shoestrap_entry_footer
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+Same as [`shoestrap_in_article_bottom`](/actions/shoestrap_in_article_bottom).
+
+The difference is that when using the `shoestrap_entry_footer` action, the content is inserted inside a `<footer class="entry-footer">` wrapper.
+
+<hr>
+
+* Location: [templates/content.php](https://github.com/shoestrap/shoestrap/blob/master/templates/content.php).
