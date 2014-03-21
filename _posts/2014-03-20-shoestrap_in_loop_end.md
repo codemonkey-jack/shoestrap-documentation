@@ -5,4 +5,21 @@ category: actions
 permalink: actions/shoestrap_in_loop_end
 ---
 
-This page is incomplete. Please consider helping out with the documentation by forking our docs repository and submitting a pull request.
+The `shoestrap_in_loop_end` action can be used to inject custom content at the end of the loop, after the content template.
+
+### Example:
+
+```php
+<?php
+
+function my_custom_in_loop_end() {
+	echo 'This content will appear in the end of the loop';
+}
+add_action( 'shoestrap_in_loop_end', 'my_custom_in_loop_end' );
+
+?>
+```
+
+<hr>
+
+* Location: [index.php](https://github.com/shoestrap/shoestrap/blob/master/index.php)
