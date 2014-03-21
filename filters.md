@@ -1,5 +1,5 @@
 ---
-layout: filter
+layout: full-width
 title: Shoestrap Filters
 ---
 
